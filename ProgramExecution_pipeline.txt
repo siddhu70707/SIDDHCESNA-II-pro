@@ -1,0 +1,50 @@
+        +------------------------------------+
+       |      Source Code File (.txt)       |
+       |  e.g., int x = 10; if (x == y)...  |
+       +-----------------+------------------+
+                         |
+                         v
+       +------------------------------------+
+       |         1. Lexer (Tokenizer)       |
+       |  Breaks text into raw tokens:      |
+       |  [INT], [IDENT,"x"], [ASSIGN]...   |
+       +-----------------+------------------+
+                         |
+                         v
+       +------------------------------------+
+       |    2. Symbol & Address Mapping     |
+       |  Maps variables to static RAM locations: |
+       |  x -> 0x0200, y -> 0x0201          |
+       +-----------------+------------------+
+                         |
+                         v
+       +------------------------------------+
+       |       3. Statement Parser          |
+       |  Identifies code patterns line-by- |
+       |  line (Assignments, Ifs, Loops)    |
+       +-----------------+------------------+
+                         |
+                         v
+       +------------------------------------+
+       |      4. Code Pattern Matcher       |
+       |  Replaces high-level grammar with  |
+       |  your pre-made Assembly Templates  |
+       +-----------------+------------------+
+                         |
+                         v
+       +------------------------------------+
+       |    Generated Assembly (.scesna)    |
+       |  e.g., LOAD R0, 10                 |
+       |        STORE R0, [0x0200]          |
+       +-----------------+------------------+
+                         |
+                         v
+       +------------------------------------+
+       |     Your Existing C++ Assembler    |
+       +-----------------+------------------+
+                         |
+                         v
+       +------------------------------------+
+       |       Final Hex Code Output        |
+       |        C048 2060 2000 3C00         |
+       +------------------------------------+

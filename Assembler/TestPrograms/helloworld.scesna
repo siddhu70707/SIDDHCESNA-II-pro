@@ -1,0 +1,25 @@
+#include ASCII
+
+@INITIALISE
+    LOAD r0 H
+    OUT r0
+    LOAD r0 e
+    OUT r0
+    LOAD r0 l
+    OUT r0
+    LOAD r0 l
+    OUT r0
+    LOAD r0 o
+    OUT r0
+    LOAD r0 W
+    OUT r0
+    LOAD r0 o
+    OUT r0
+    LOAD r0 r
+    OUT r0
+    LOAD r0 l
+    OUT r0
+    LOAD r0 d
+    OUT r0
+    
+    HALT

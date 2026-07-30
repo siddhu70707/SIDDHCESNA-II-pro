@@ -1,0 +1,17 @@
+{
+    "[c]": {
+        "editor.quickSuggestions": {
+            "other": "on",
+            "comments": "off",
+            "strings": "off"
+        }
+    },
+    "[cpp]": {
+        "editor.quickSuggestions": {
+            "other": "on",
+            "comments": "off",
+            "strings": "off"
+        }
+    },
+    "C_Cpp.errorSquiggles": "enabled"
+}

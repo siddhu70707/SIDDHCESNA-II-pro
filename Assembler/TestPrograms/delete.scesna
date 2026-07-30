@@ -1,0 +1,15 @@
+#include ASCII
+    LOAD r0, DEL
+    OUT r0
+    OUT r0
+    OUT r0
+    OUT r0
+    OUT r0
+    OUT r0
+    OUT r0
+    OUT r0
+    OUT r0
+    OUT r0
+    OUT r0
+    OUT r0
+HALT

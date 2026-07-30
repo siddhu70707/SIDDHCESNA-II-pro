@@ -1,0 +1,13 @@
+#define ZERO, 0x000
+
+@RESET
+    LOAD r0, 0x000
+    LOAD r1, 0x000
+    LOAD r2, 0x000
+    LOAD r3, 0x000
+    MOV r0, rA // extra lines
+    MOV r0, rB // extra
+    JZERO @START
+
+@START
+    // code here
