@@ -28,7 +28,7 @@
        +------------------------------------+
        |      4. Code Pattern Matcher       |
        |  Replaces high-level grammar with  |
-       |  your pre-made Assembly Templates  |
+       |  My pre-made Assembly Templates  |
        +-----------------+------------------+
                          |
                          v
@@ -40,7 +40,7 @@
                          |
                          v
        +------------------------------------+
-       |     Your Existing C++ Assembler    |
+       |     My Existing C++ Assembler    |
        +-----------------+------------------+
                          |
                          v
