@@ -3,13 +3,14 @@
 #include <stack>
 #include <array>
 #include <cstdint>
+#include <unordered_map>
 #include <utility>
 #include "helperfunc.h"
 using namespace std;
 
 
 
-
+unordered_map<string, uint16_t> identifierlist = {};
 std::array<std::pair<uint16_t, std::string>, 4096> memory = {{
     {0, "\0"}, {1, "\x01"}, {2, "\x02"}, {3, "\x03"}, {4, "\x04"}, {5, "\x05"}, {6, "\x06"}, {7, "\a"},
     {8, "\b"}, {9, "\t"}, {10, "\n"}, {11, "\v"}, {12, "\f"}, {13, "\r"}, {14, "\x0E"}, {15, "\x0F"},
